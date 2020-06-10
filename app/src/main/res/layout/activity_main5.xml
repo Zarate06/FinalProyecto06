@@ -27,17 +27,130 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="25sp"
         android:layout_marginLeft="90dp"
         android:textAlignment="center"
         android:text="Who of your children will need a ride?">
 
     </TextView>
     <LinearLayout
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:orientation="vertical"
         android:background="#636363"></LinearLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:background="@drawable/usuario1"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="10dp"
+            android:text="Adriana Galitsky"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+        <ImageView
+            android:layout_width="20dp"
+            android:background="@drawable/palomita"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"></ImageView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="vertical"
+        android:background="#636363"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:background="@drawable/usuario2"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="10dp"
+            android:text="Leon Galitsky"
+            android:textColor="#8C8C8C"
+            android:textSize="20sp"></TextView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="vertical"
+        android:background="#636363"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:background="@drawable/agregar"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="10dp"
+            android:text="Add adult"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:text="Next"
+        android:textColor="@color/cuertapantalla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.47"
+        android:onClick="next"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintVertical_bias="0.96">
+
+    </Button>
 </LinearLayout>
