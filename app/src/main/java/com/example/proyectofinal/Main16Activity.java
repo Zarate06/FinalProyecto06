@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Main15Activity extends AppCompatActivity {
+public class Main16Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main15);
+        setContentView(R.layout.activity_main16);
     }
-    public void mapa(View view) {
-        startActivity(new Intent(getApplicationContext(),Main16Activity.class));
+    public void next(View view) {
+        startActivity(new Intent(getApplicationContext(),MainActivity.class));
         finish();
     }
 }
