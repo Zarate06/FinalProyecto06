@@ -11,12 +11,14 @@
         android:layout_height="60dp"
         android:textAlignment="center"
         android:background="#ADD6FF"
+
         android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="schedule"
             android:textAlignment="center"
+            android:onClick="next3"
             android:textColor="#ffffff"
             android:layout_marginTop="15sp"
             android:layout_marginLeft="170dp"
@@ -26,6 +28,5 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:onClick="next2"
         android:background="@drawable/menu33"></LinearLayout>
 </LinearLayout>

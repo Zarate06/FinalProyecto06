@@ -1,0 +1,259 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Main14Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:background="#ADD6FF"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="schedule"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15sp"
+            android:layout_marginLeft="170dp"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="tomorrow 4 jul"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"></TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8"
+        android:onClick="next9"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/usuario4"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Adriann from home to dancing          5:30 pm"
+            android:textColor="#000000"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:id="@+id/abajo"
+            android:layout_below="@+id/textC7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="driver Johan Johnson                                          5:55 pm"
+            android:textColor="#9C9C9C"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/jon"
+            android:layout_below="@+id/abajo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="pooling with Kathie Johnson"
+            android:textColor="#555555"
+            android:textSize="10sp"></TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:background="#E8E8E8"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/usuario2"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC75"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="Leon from granny's to dad's     3:00 pm"
+            android:textColor="#000000"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:id="@+id/abajo5"
+            android:layout_below="@+id/textC75"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:text="driver me                                                   5:40 pm"
+            android:textColor="#9C9C9C"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/jon5"
+            android:layout_below="@+id/abajo5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="pooling with Corben Bukowski"
+            android:textColor="#000000"
+            android:textSize="14sp"></TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Mon 5 jul"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/usuario2"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC759"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="Adriana from house to granny's     5:30 pm"
+            android:textColor="#000000"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:id="@+id/abajo59"
+            android:layout_below="@+id/textC759"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="driver me                                                           5:55 pm"
+            android:textColor="#9C9C9C"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/jon59"
+            android:layout_below="@+id/abajo59"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="pooling with Kathie Johnson"
+            android:textColor="#000000"
+            android:textSize="14sp"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/usuario2"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC7592"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="10dp"
+            android:text="Leon from dad's to basketball class  5:30 pm"
+            android:textColor="#000000"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:id="@+id/abajo592"
+            android:layout_below="@+id/textC7592"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="10dp"
+            android:text="driver me                                                                5:40   pm"
+            android:textColor="#9C9C9C"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/jon592"
+            android:layout_below="@+id/abajo592"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="pooling"
+            android:textColor="#000000"
+            android:textSize="14sp"></TextView>
+    </RelativeLayout>
+</LinearLayout>
