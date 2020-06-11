@@ -19,7 +19,7 @@
 
     <Button
         android:layout_width="360dp"
-        android:layout_height="80dp"
+        android:layout_height="90dp"
         android:text="Next"
         android:textColor="@color/cuertapantalla"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +28,7 @@
         android:onClick="next"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96">
+        app:layout_constraintVertical_bias="0.97">
 
     </Button>
 </androidx.constraintlayout.widget.ConstraintLayout>

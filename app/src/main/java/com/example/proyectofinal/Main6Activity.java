@@ -6,16 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Main5Activity extends AppCompatActivity {
+public class Main6Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.activity_main6);
     }
-
     public void next(View view) {
-        startActivity(new Intent(getApplicationContext(),Main6Activity.class));
+        startActivity(new Intent(getApplicationContext(),Main7Activity.class));
         finish();
     }
 }

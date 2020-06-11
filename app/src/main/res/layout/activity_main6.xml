@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main6Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:background="#A1A1A1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suggested locations"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15sp"
+            android:layout_marginLeft="110dp"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/localizacion"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="10dp"
+            android:text="Franky Rily contemporary dancing studio"
+            android:textColor="#000000"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_below="@+id/textC"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="124 Franklin Rousevelt blvd, Boston MA"
+            android:textColor="#9C9C9C"
+            android:textSize="12sp"></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="vertical"
+        android:background="#636363"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/localizacion"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="10dp"
+            android:text="National dancing studio"
+            android:textColor="#000000"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_below="@+id/textC2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="571 Diagonal ave, Boston MA"
+            android:textColor="#FF9C9C9C"
+            android:textSize="12sp"></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="vertical"
+        android:background="#636363"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/localizacion"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="10dp"
+            android:text="National dancing studio"
+            android:textColor="#000000"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_below="@+id/textC3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:text="571 Diagonal ave, Boston MA"
+            android:textColor="#FF9C9C9C"
+            android:textSize="12sp"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:onClick="next"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mas"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="false"></ImageView>
+
+        <TextView
+            android:id="@+id/textC4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="10dp"
+            android:text="create new location"
+            android:textColor="#000000"
+            android:textSize="15sp"></TextView>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mapa"
+        ></ImageView>
+</LinearLayout>

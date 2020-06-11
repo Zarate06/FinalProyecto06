@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">ProyectoFinal</string>
+    <string name="app_name">Kibzy</string>
+    <string name="texto12">Hey friends.
+        \n\nI have an emergency situations at work and I have yo go there ASAP. I need somebody yo take Caren to her dancing class. Cloud any of you help me out!.
+        \n\nMany thanks!.</string>
+    <string name="texto13">Send to.
+        \n\nJohanna Johnson, Konstantine Bukowski, Matthew Green, Molly Masisson, Betty Draper, Marsha Hunter
+        \n\n</string>
 </resources>
