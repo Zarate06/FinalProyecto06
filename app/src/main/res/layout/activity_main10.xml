@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Main10Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:background="#FFCEAD"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="new request"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15sp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/usuario5"
+        android:layout_height="62dp"
+        android:layout_alignParentRight="false"></ImageView>
+    <TextView
+        android:id="@+id/textC"
+        android:layout_marginTop="20sp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150sp"
+        android:text="Betty Draper"
+        android:textColor="#9C9C9C"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:id="@+id/abajo"
+        android:layout_below="@+id/textC"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180sp"
+        android:layout_marginTop="2dp"
+        android:text="request"
+        android:textColor="#000000"
+        android:textSize="15sp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/texto12"
+        android:textColor="@color/negro"
+        android:textSize="20dp"
+        android:gravity="fill">
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/calendario2"
+        ></ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="100dp">
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X sorry, i can't"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/button_submit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFCEAD"
+            android:text="/ i can help"
+            android:onClick="next"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="if you can help, let Betty know"></TextView>
+    </LinearLayout>
+</ScrollView>
